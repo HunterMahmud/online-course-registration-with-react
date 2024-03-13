@@ -1,7 +1,7 @@
 function Course() {
     return (
         <div>
-            
+            single course
         </div>
     );
 }
