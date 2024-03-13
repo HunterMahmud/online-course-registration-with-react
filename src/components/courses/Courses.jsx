@@ -1,10 +1,13 @@
 import Course from "./Course";
 
-function Courses(props) {
+function Courses({courses}) {
     return (
-        <div>
-            <Course/>
-        </div>
+        <>
+            {
+                courses.map((course,i) => <Course key={i} course={course} />)
+            }
+ 
+        </>
     );
 }
 

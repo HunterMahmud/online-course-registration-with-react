@@ -1,5 +1,5 @@
 
-function Cart() {
+function Card() {
     return (
         <div>
             cart
@@ -7,4 +7,4 @@ function Cart() {
     );
 }
 
-export default Cart;
+export default Card;
