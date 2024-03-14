@@ -24,7 +24,7 @@ function App() {
       alert("This course already Selected.");
     } else {
       totalCreditRemaining-=course.credit;
-      setCarts((c) => [...c, course]);
+      setCarts([...carts, course]);
     }
   };
   return (
